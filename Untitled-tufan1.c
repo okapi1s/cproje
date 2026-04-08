@@ -39,11 +39,11 @@ printf("SONUC:");
         if (sarj_yuzdesi>100||sarj_yuzdesi<0) {
         printf("YUZDE DEGERI HATALI\n");
         }
-        //şarj yüzdesi %0'dan düşük, %100'den yüksek değerlerde hata çıktısı vermesi 
+        //şarj yüzdesi %0'dan düşük, %100'den yüksek değerlerde hata çıktısı vermesi.
             else if (sarj_yuzdesi<10) {
         printf("UYARI: Batarya Kritik Seviyede! Surus Baslatilamaz.\n");
         }
-        //şarj yüzdesi %10'dan düşük değerlerde uyarı çıktısı vermesi
+        //şarj yüzdesi %10'dan düşük değerlerde uyarı çıktısı vermesi.
         if (kapi_durumu!='A'&&kapi_durumu!='K') {
         printf("UYARI: Gecersiz kapi durumu\n");
         }
